@@ -1,0 +1,186 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(images/backg.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: 'Balsamiq Sans', cursive;
+}
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    background-color:#a1a6a68f;
+    animation: back 4s infinite;
+}
+header {
+    display: flex;
+    padding: 20px 80px;
+    justify-content: space-between;
+}
+header img {
+    width: 10%;
+}
+header nav {
+    display: flex;
+    align-items: center;
+}
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin: 20px; 
+}
+header nav a:hover {
+    color: #787a7a;
+}
+.login {
+    display: flex;
+    align-items: center;
+}
+.login a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    background-color: #7b5eed;
+    border-radius: 25px;
+}
+.login a:hover {
+    background-color: #8b9df7;
+}
+#container-1 {
+    display: flex;
+    padding: 40px;
+    margin-top: 40px;
+}
+#first {
+    padding: 20px;
+    width: 60%;
+    padding-left: 60px;
+}
+#first span {
+    font-size: 10px;
+}
+#first input {
+    background-color:rgba(238, 234, 234, 0.548);
+    border: 1px solid grey;
+    margin-left: 8px;
+    height: 25px;
+}
+#first button {
+   background-color: #7b5eed;
+   color: white;
+   height: 30px;
+   border: none;
+   cursor: pointer;
+}
+#first ::placeholder {
+    color: white;
+}
+#first button:active{
+    background: white;
+    color:#7b5eed;
+}
+.img {
+    width: 40%;
+}
+.img img {
+    border-radius: 10px;
+}
+.sec-img {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+}
+.sec-img h4 {
+    margin: 5px;
+}
+.img-text {
+    width: 33%;
+    padding: 10px 0;
+}
+.img-text p {
+    font-size: 11px;
+    margin-right: 10px;
+}
+#container-3 {
+    color:white;
+    text-align: center;
+    padding: 60px 0;
+}
+#container-3 h5{
+    font-size: 12px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+#container-3 p{
+    font-size: 12px;
+    padding-top: 30px;
+}
+#container-3 span{
+    font-size: 10px;
+    color: black;
+}
+#container-3 input {
+    background-color:rgba(238, 234, 234, 0.548);
+    border: 1px solid grey;
+    height: 25px;
+    color: white;
+}
+
+#container-3  ::placeholder {
+    color: white;
+}
+#container-3 button {
+    background-color: #7b5eed;
+    color:white;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+#container-3 button:active {
+    background:#7b5eed ;
+    color: white;
+}
+footer {
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+}
+footer h5 {
+    margin: 0;
+}
+.link {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.link a{
+    text-decoration: none;
+    font-size: 10px;
+    margin-right: 20px;
+    color: black;
+}
+.link a:hover {
+    color: #e9f0ea;
+}
+@keyframes back {
+    0%{
+        background-color: #a1a6a68f ;
+    }
+    20% {
+        background-color: #8286868f;
+    }
+    40% {
+        background-color: #585c5c8f;
+    }
+    60%{
+        background-color: #585c5c8f;
+    }
+    80% {
+        background-color: #8286868f;
+    }
+    100% {
+        background-color: #a1a6a68f;
+    }
+}
